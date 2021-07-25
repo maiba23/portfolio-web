@@ -1,0 +1,90 @@
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+
+.App {
+	text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+:root {
+	--primary-standard-blue: #00b0ff;
+	--primary-skyblue: #00d7ff;
+	--primary-light-blue: #b4e6fb;
+	--primary-white: #ffffff;
+	--primary-light-grey: #f4f4f4;
+	--primary-grey: #ccd1d9;
+	--primary-dark-grey: #666666;
+	--primary-dark: rgb(52, 58, 64);
+	--primary-red: #ef4035;
+	--primary-hover-red: #f33501;
+	--primary-black: #000000;
+	--primary-transparent-black: rgba(0, 0, 0, 0.5);
+	--primary-green: green;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+/*-------- PARTICLES JS ---------------*/
+/* This is the class of particles from the ParticlesJS, I had to overwritten it. */
+.tsparticles-canvas-el {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	z-index: 1;
+}
+
+/* @media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+} */
+
+/*------------ MEDIA ------------------*/
+@media (max-width: 768px) {
+	.experience .container {
+		padding-left: 0;
+	}
+
+	.portfolio-image-popupbox {
+		width: 100%;
+	}
+
+	.experience-wrapper::before {
+		left: 0.5rem;
+		margin-bottom: 1.875rem;
+	}
+	.timeline-block-right {
+		float: none;
+		width: 100%;
+	}
+
+	.timeline-block-left {
+		float: none;
+		direction: ltr;
+		width: 100%;
+	}
+}
+
+@media (max-width: 570px) {
+	.popupbox-wrapper {
+		height: 100%;
+	}
+	.portfolio-image-popupbox {
+		width: 50%;
+	}
+}
+
+@media (max-width: 280) {
+	.popupbox-wrapper {
+		height: 90%;
+	}
+	.portfolio-image-popupbox {
+		width: 30%;
+	}
+}

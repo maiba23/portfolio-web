@@ -1,0 +1,134 @@
+
+/************************ ventures *********************************/
+.ventures {
+    /* background-image: url(ventures-bg.jpg); */
+    background-image: url(world-connected.png);
+    /* background-color: white; */
+    background-color: var(--primary-light-grey);
+    background-size: 100% 100%;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    /* background-position-y:58vw; */
+    /* background-position-x:69vw; */
+    /* background-position-x: 50vw; */
+    /* background-size: cover; */
+    margin-left: 0rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    margin-bottom: 0;
+    /* width: 100%; */
+    /* height: 100vh; */
+  }
+  
+  .ventures h1 {
+    color: var(--primary-standard-blue);
+    padding: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .ventures-content {
+    text-align: center;
+    /* max-width: 53.125rem; */
+    max-width: 75rem;
+    margin: 0 auto 2rem auto;
+    background: var(--primary-transparent-black); 
+  }
+  
+  .myCarousel {
+    color: var(--primary-white);
+    background: transparent;
+    margin-top: -6%;
+    /* width: 54%; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 45vh;
+  }
+  
+  .myCarousel h3 {
+    color: var(--primary-standard-blue);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .myCarousel p {
+    color: var(--primary-grey);
+  }
+  
+  .carousel .slide img {
+    width: 8rem !important;
+    /* border-radius: 50%; */
+  }
+  
+  .carousel .slide {
+    background: transparent !important;
+    height: 100% !important;
+    padding-top: 2rem;
+  }
+  
+  .carousel-root {
+    margin: auto !important;
+    margin-top: 3% !important;
+  }
+
+  @media(max-width: 768px) {
+
+    .ventures h1 {
+      color: var(--primary-standard-blue);
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    .myCarousel h3 {
+      font-size: 1rem;
+    }
+
+    .myCarousel p {
+      font-size: 0.7rem;
+    } 
+
+    .myCarousel a{
+      font-size: 0.7rem;
+    }
+
+    .imgCarousel {
+      /* max-width: 50%;
+      max-height: 50%; */
+      /* display: none; */
+    }
+    /* .ventures{
+      height: 100%;
+    }
+    .portfolio-image-popupbox{
+      width:50%;
+    } */
+  }
+
+  @media screen and (max-width: 767px), 
+  screen and (max-height: 480px) {
+
+    .myCarousel h3 {
+      font-size: 0.7rem;
+    }
+
+    .myCarousel p {
+      font-size: 0.5rem;
+    } 
+
+    .myCarousel a{
+      font-size: 0.5rem;
+    }
+
+    .imgCarousel img{
+      /* max-width: 50%;
+      max-height: 50%; */
+      display: none;
+    }
+}

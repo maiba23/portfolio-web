@@ -1,0 +1,60 @@
+/************************ NAVBAR *********************************/
+
+nav{
+  /* It will make navbar 'sit' on top of the particles. */
+  z-index: 2;
+  /* background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")}; */
+
+  /* color: black !important; */
+}
+
+.navbar{
+  background-color:var(--primary-black) !important;
+}
+
+.logo {
+  width: 12rem;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  cursor: pointer;
+}
+
+.logo:hover {
+  transition:  .2s ease-in-out;
+  transform: scale(1.05);
+}
+
+/*----- MENU LINKS --------*/
+nav a.nav-link {
+  font-size: .8rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+  
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  color: var(--primary-white) !important;
+}
+
+.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid #00D7FF;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid #00D7FF;
+  transition:  .2s ease-in-out;
+  transform: scale(1.1);
+}

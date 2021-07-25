@@ -1,0 +1,116 @@
+/************************ HEADER *********************************/
+
+.header-wrapper {
+    position: relative;
+    background: url(bg-blue-red.jpg) no-repeat;
+    margin-top: 5rem;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* width: 100vw; */
+  }
+  
+  .main-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*This z-index will allow the button to be 'clickable', cause it'll be over the particles. */
+    z-index: 1;
+  }
+  
+  .main-info h1 {
+    color: var(--primary-light-grey);
+    /* text-transform: uppercase; */
+    font-size: 3rem !important;
+    font-weight: 700;
+  }
+
+
+
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+  }
+
+
+  /*-------- TYPED TEXT ---------------*/
+.typed-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-light-grey);
+  }
+  
+ 
+  /*-------- HEADER MAIN OFFER BUTTON ---------------*/
+  .btn-main-offer {
+    /* border: 1px solid var(--primary-red); */
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: var(--primary-white);
+    background-color: var(--primary-black);
+    margin: 2rem;
+    margin-bottom: 16rem;
+    filter: opacity(75%);
+  }
+  
+  .btn-main-offer:hover {
+    text-decoration: none;
+    color: var(--primary-black);
+    background: var(--primary-white);
+    transition:  .2s ease-in-out;
+    transform: scale(1.05);
+    filter: opacity(100%);
+  }
+
+  @media screen and (max-width: 768px){
+    .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+  .typed-text {
+    font-size: 1.5rem !important;
+  }
+  .btn-main-offer {
+    margin: 2rem;
+    margin-bottom: 8rem;
+  }
+
+  }
+  /* @media only screen and (max-width: 900px) {
+    .main-info h1 {
+      color: var(--primary-light-grey);
+      font-size: 1.5rem !important;
+      font-weight: 700;
+    }
+  }
+
+
+  @media screen and (max-width: 767px), 
+  screen and (max-height: 480px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .typed-text {
+    font-size: 1rem !important;
+  }
+
+  .btn-main-offer {
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: var(--primary-black);
+    background-color: var(--primary-white);
+    margin: 2rem;
+    opacity: 70%;
+  }
+} */

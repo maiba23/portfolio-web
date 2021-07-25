@@ -1,0 +1,41 @@
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+    background: var(--primary-black);
+    color: var(--primary-dark-grey);
+    padding: 3rem;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: var(--primary-dark-grey);
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: var(--primary-standard-blue);
+    cursor:pointer;
+  }
+  
+  .footer p {
+    margin-bottom: 1rem;
+  }
+
+  .footer-icon{
+    margin: 1rem;
+  }
+
+  .footer-icon:hover{
+    color: var(--primary-standard-blue);
+    transition:  .2s ease-in-out;
+    transform: scale(1.1);
+  }
+
+  .footer-email{
+    margin-bottom: 1rem;
+  }
+
+  .footer-email:hover{
+    color: var(--primary-standard-blue);
+    transition:  .2s ease-in-out;
+    transform: scale(1.1);
+  }
