@@ -48,7 +48,7 @@ const Contacts = () => {
   };
 
   return (
-    <div id="contacts" className="contacts">
+    <div id="contact" className="contacts">
       <div className="text-center">
         <h1>contact me</h1>
         <p>Write to me and I'll contact you as soon as possible.</p>

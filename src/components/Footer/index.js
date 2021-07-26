@@ -1,12 +1,5 @@
 import React from "react";
-import "./Footer.css";
 import { IconContext } from "react-icons";
-import {
-  FaGithub,
-  FaInstagram,
-  FaFacebook,
-  FaLinkedinIn,
-} from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -14,7 +7,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { Link } from "react-router-dom";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -27,6 +20,7 @@ const Footer = () => {
                 className="footer-icon"
                 href="https://github.com/lkot"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faGithub} size="2x" />
               </a>
@@ -34,6 +28,7 @@ const Footer = () => {
                 className="footer-icon"
                 href="https://www.linkedin.com/in/kot-lukasz/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
               </a>
@@ -41,6 +36,7 @@ const Footer = () => {
                 className="footer-icon"
                 href="https://www.facebook.com/kicirrus/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </a>
@@ -48,6 +44,7 @@ const Footer = () => {
                 className="footer-icon"
                 href="https://www.instagram.com/luk_kot"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>

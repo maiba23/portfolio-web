@@ -45,13 +45,18 @@ const TestimonialsCarousel = () => {
             broadcasted by Polish National Television as well as on a YouTube
             platform.
           </p>
-          <a href="https://www.facebook.com/zindexemwpodrozy" target="_blank">
+          <a
+            href="https://www.facebook.com/zindexemwpodrozy"
+            target="_blank"
+            rel="noreferrer"
+          >
             Facebook Fanpage - Z indexem w podróży
           </a>
           <br />
           <a
             href="https://www.youtube.com/user/zindexemwpodrozy"
             target="_blank"
+            rel="noreferrer"
           >
             YouTube Channel - Z indexem w podróży
           </a>
@@ -65,7 +70,11 @@ const TestimonialsCarousel = () => {
             Participated in the realization of nationwide travel festival called
             Zielone Globy.
           </p>
-          <a href="https://www.facebook.com/zielonegloby" target="_blank">
+          <a
+            href="https://www.facebook.com/zielonegloby"
+            target="_blank"
+            rel="noreferrer"
+          >
             Facebook Fanpage - Zielona Globy Festival
           </a>
         </div>
