@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Typed from "react-typed";
 import { Link } from "react-scroll";
-import authorImg from "../../avatar-transparent.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Hero.css";
+import { Avatar } from "../../utils/imgImport";
 
 const Header = () => {
   useEffect(() => {
@@ -21,7 +21,7 @@ const Header = () => {
       <div className="main-info">
         <img
           className="profile-img img-fluid"
-          src={authorImg}
+          src={Avatar}
           alt="author..."
           data-aos="fade-down"
           data-aos-delay="100"
