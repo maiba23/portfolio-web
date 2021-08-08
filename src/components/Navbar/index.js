@@ -3,13 +3,7 @@ import { Link } from "react-scroll";
 import { Logo } from "../../utils/imgImport";
 import "./Navbar.css";
 
-const linkNames = [
-  "about",
-  "portfolio",
-  "technologies",
-  "experience",
-  "ventures",
-];
+const linkNames = ["about", "portfolio", "technologies", "experience"];
 
 const LinkComponent = ({ linkTo, navSlide }) => (
   <li>

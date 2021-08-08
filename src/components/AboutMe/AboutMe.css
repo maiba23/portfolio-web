@@ -1,74 +1,72 @@
 /************************ ABOUT ME *********************************/
-.about{
+.about {
   background: var(--primary-light-grey);
   /* background: var(--primary-white); */
 }
 
-.bold-text{
+.bold-text {
   font-weight: bold;
 }
 
 .photo-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .profile-img {
-    width: 16rem;
-    border-radius: 10px;
-    padding: .3rem;
-    margin-top: 5rem;
-    align-items: center;
-  }
-  
-  /* .about-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 10px;
+  padding: 0.3rem;
+  margin-top: 4.5rem;
+  align-items: center;
+}
+
+/* .about-heading {
     color: var(--primary-dark);
     text-transform: uppercase;
     font-weight: bold !important;
     align-items: center;
   } */
 
-  .about h1 {
-    font-weight: 900;
-    font-size: 3rem;
-    color: var(--primary-dark);
-    text-transform: uppercase;
-    text-align: center;
-  }
+.about h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  text-align: center;
+}
 
-  .pdf-link{
-    color: var(--primary-standard-blue);
-    font-weight: 700;
-    text-decoration: none;
-  }
+.pdf-link {
+  color: var(--primary-standard-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
 
-  .about h4 {
-    /* text-transform: uppercase; */
-    font-size: 1.5rem;
-    font-weight: 700;
-    /* justify-content: center;   */
-    align-items: center;
-  }
-  
-  .about h5 {
-    font-size: 1rem;
-    font-weight: 700;
-    align-items: center;
-  }
+.about h4 {
+  /* text-transform: uppercase; */
+  font-size: 1.5rem;
+  font-weight: 700;
+  /* justify-content: center;   */
+  align-items: center;
+}
 
-  .about p{
-    /* text-transform: uppercase; */
-    font-size: .8rem;
-    justify-content: center;  
-    /* height: 65vh; */
-  }
+.about h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  align-items: center;
+}
 
+.about p {
+  /* text-transform: uppercase; */
+  font-size: 0.8rem;
+  justify-content: center;
+  /* height: 65vh; */
+}
 
 /************* MEDIA *************/
 
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
   .about h1 {
     font-weight: 900;
     font-size: 1.5rem;
@@ -80,17 +78,16 @@
     font-size: 1rem;
     font-weight: 700;
     align-items: center;
-    }
+  }
 
   .about p {
-    font-size: .7rem !important;
+    font-size: 0.7rem !important;
     font-weight: 500;
   }
 }
 
-  @media(max-width: 468px) {
-    .profile-img {
-      width: 10rem;
-    }
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
   }
-
+}
