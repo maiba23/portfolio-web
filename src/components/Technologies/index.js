@@ -10,13 +10,12 @@ import {
   faNpm,
   faGithub,
   faCuttlefish,
-  faUsb,
+  faSass,
+  faNodeJs,
+  faLaravel,
+  faPhp,
 } from "@fortawesome/free-brands-svg-icons";
-import {
-  faDatabase,
-  faCode,
-  faNetworkWired,
-} from "@fortawesome/free-solid-svg-icons";
+import { faDatabase, faCode } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -165,13 +164,9 @@ const Technologies = () => {
           >
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon
-                  className="icon"
-                  icon={faNetworkWired}
-                  size="2x"
-                />
+                <FontAwesomeIcon className="icon" icon={faSass} size="2x" />
               </div>
-              <h3>ASP.NET</h3>
+              <h3>SASS</h3>
               {/* <p>ReactJS apps.</p>{" "} */}
             </div>
           </div>
@@ -183,12 +178,41 @@ const Technologies = () => {
           >
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faUsb} size="2x" />
+                <FontAwesomeIcon className="icon" icon={faNodeJs} size="2x" />
               </div>
-              <h3>EF Core</h3>
+              <h3>NodeJS</h3>
               {/* <p>ReactJS apps.</p> */}
             </div>
           </div>
+          {/* - */}
+          <div
+            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
+            data-aos="flip-left"
+            data-aos-delay="1100"
+          >
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faLaravel} size="2x" />
+              </div>
+              <h3>Laravel</h3>
+              {/* <p>ReactJS apps.</p> */}
+            </div>
+          </div>
+          {/* - */}
+          <div
+            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
+            data-aos="flip-left"
+            data-aos-delay="1100"
+          >
+            <div className="box">
+              <div className="circle">
+                <FontAwesomeIcon className="icon" icon={faPhp} size="2x" />
+              </div>
+              <h3>PHP</h3>
+              {/* <p>ReactJS apps.</p> */}
+            </div>
+          </div>
+
           {/* - */}
           <div
             className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
