@@ -80,9 +80,10 @@ const Experience = () => {
             <hr />
             <h4>August 2021 ~ Currently</h4>
             <h5>Web Developer | Upwork</h5>
+            <p>• Working as a freelancer at upwork.com</p>
             <p>
-              • Working as a freelancer at upwork.com • Working independently
-              and remotely and flexible working hours at home
+              • Working independently and remotely and flexible working hours at
+              home
             </p>
             <hr />
           </div>

@@ -24,14 +24,11 @@ const Header = () => {
           src={Avatar}
           alt="author..."
           data-aos="fade-down"
-          data-aos-delay="100"
         />
-        <h1 data-aos="fade-down" data-aos-delay="200">
+        <h1 data-aos="fade-down">
           Hey, I'm Yurii Maiba Senior Frontend Developer.
         </h1>
-        <h1 data-aos="fade-down" data-aos-delay="300">
-          Let's work together!
-        </h1>
+        <h1 data-aos="fade-down">Let's work together!</h1>
         {/* Using React-Typed package to display 'writing text animation'. */}
         <Typed
           className="typed-text"
@@ -49,6 +46,7 @@ const Header = () => {
           typeSpeed={40}
           backSpeed={60}
           loop
+          data-aos="fade-down"
         />
         <Link
           smooth={true}
