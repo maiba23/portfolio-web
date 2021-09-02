@@ -134,11 +134,11 @@ const Portfolio = () => {
         <b>Website:</b>{" "}
         <a
           className="hyper-link"
-          href="https://theinsuranceassist.netlify.app/"
+          href="http://ia.atidot.co/"
           target="_blank"
           rel="noreferrer"
         >
-          https://theinsuranceassist.netlify.app/
+          http://ia.atidot.co/
         </a>
         <br />
         <b>GitHub:</b>{" "}
