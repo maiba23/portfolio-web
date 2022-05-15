@@ -9,11 +9,13 @@ import {
   faBootstrap,
   faNpm,
   faGithub,
-  faCuttlefish,
+  faSlack,
   faSass,
   faNodeJs,
   faLaravel,
   faPhp,
+  faBitcoin,
+  faCss3,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase, faCode } from "@fortawesome/free-solid-svg-icons";
 import AOS from "aos";
@@ -24,211 +26,95 @@ const Technologies = () => {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
+  const technologies = [
+    {
+      icon: faHtml5,
+      name: "HTML5",
+    },
+    {
+      icon: faCss3,
+      name: "CSS3",
+    },
+    {
+      icon: faSass,
+      name: "SASS",
+    },
+    {
+      icon: faJsSquare,
+      name: "JavaScript",
+    },
+    {
+      icon: faNodeJs,
+      name: "NodeJS",
+    },
+    {
+      icon: faDatabase,
+      name: "MySQL",
+    },
+    {
+      icon: faPhp,
+      name: "PHP",
+    },
+    {
+      icon: faReact,
+      name: "ReactJS",
+    },
+    {
+      icon: faLaravel,
+      name: "Laravel",
+    },
+    {
+      icon: faBitcoin,
+      name: "Web3",
+    },
+    {
+      icon: faBootstrap,
+      name: "Bootstrap",
+    },
+    {
+      icon: faGithub,
+      name: "Github",
+    },
+    {
+      icon: faNpm,
+      name: "NPM",
+    },
+    {
+      icon: faCode,
+      name: "VS Code",
+    },
+    {
+      icon: faSlack,
+      name: "Slack",
+    },
+  ];
+
   return (
     <div id="technologies" className="technologies">
       <h1 className="py-5">Frameworks, Libraries & Technologies</h1>
       <div className="container">
         <div className="row">
-          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
-            <div className="box" data-aos="flip-left" data-aos-delay="100">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faReact} size="2x" />
+          {technologies.map((item, idx) => (
+            <div
+              className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6 d-flex justify-content-center"
+              key={idx}
+            >
+              <div
+                className="box"
+                data-aos="flip-left"
+                data-aos-delay={(idx + 1) * 100}
+              >
+                <div className="circle">
+                  <FontAwesomeIcon
+                    className="icon"
+                    icon={item.icon}
+                    size="2x"
+                  />
+                </div>
+                <h3>{item.name}</h3>
               </div>
-              <h3>ReactJS</h3>
-              {/* <p>ReactJS apps.</p> */}
             </div>
-          </div>
-          {/* - */}
-          <div className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6">
-            <div className="box" data-aos="flip-left" data-aos-delay="200">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faHtml5} size="2x" />
-              </div>
-              <h3>HTML 5</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="300"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faCss3Alt} size="2x" />
-              </div>
-              <h3>CSS 3</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="400"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon
-                  className="icon"
-                  icon={faBootstrap}
-                  size="2x"
-                />
-              </div>
-              <h3>Bootstrap</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="500"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faJsSquare} size="2x" />
-              </div>
-              <h3>JavaScript</h3>
-              {/* <p>ReactJS apps.</p>{" "} */}
-            </div>
-          </div>
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="600"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon
-                  className="icon"
-                  icon={faCuttlefish}
-                  size="2x"
-                />
-              </div>
-
-              <h3>C Sharp</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-        </div>
-        {/* - */}
-        <div className="row">
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="700"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
-              </div>
-              <h3>GitHub</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="800"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faNpm} size="2x" />
-              </div>
-              <h3>NPM</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="900"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faCode} size="2x" />
-              </div>
-              <h3>VSCode</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="1000"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faSass} size="2x" />
-              </div>
-              <h3>SASS</h3>
-              {/* <p>ReactJS apps.</p>{" "} */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="1100"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faNodeJs} size="2x" />
-              </div>
-              <h3>NodeJS</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="1100"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faLaravel} size="2x" />
-              </div>
-              <h3>Laravel</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="1100"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faPhp} size="2x" />
-              </div>
-              <h3>PHP</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-
-          {/* - */}
-          <div
-            className="col-xl-2 col-lg-4 col-md-auto col-sm-6 col-6"
-            data-aos="flip-left"
-            data-aos-delay="1200"
-          >
-            <div className="box">
-              <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faDatabase} size="2x" />
-              </div>
-
-              <h3>MySQL</h3>
-              {/* <p>ReactJS apps.</p> */}
-            </div>
-          </div>
-          {/* - */}
+          ))}
         </div>
       </div>
     </div>
