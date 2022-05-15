@@ -22,14 +22,20 @@ const Footer = () => {
             </div>
           </div>
           <div className="row justify-content-center">
-            <a
-              className="footer-email"
-              href="mailto:topcoderwizard@gmail.com?body=My custom mail body"
-            >
+            <a className="footer-email" href="mailto:topcoderwizard@gmail.com">
               topcoderwizard@gmail.com
             </a>
           </div>
-
+          <div className="row justify-content-center">
+            <a
+              className="footer-email"
+              href="resume.pdf"
+              target="_blank"
+              download
+            >
+              Resume
+            </a>
+          </div>
           <div className="row justify-content-center">
             <p className="d-flex">
               Copyright &copy; {new Date().getFullYear()}&nbsp; | Stefan | All
