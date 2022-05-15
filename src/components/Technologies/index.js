@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
   faJsSquare,
-  faCss3Alt,
   faHtml5,
   faBootstrap,
   faNpm,
@@ -81,7 +80,7 @@ const Technologies = () => {
     },
     {
       icon: faCode,
-      name: "VS Code",
+      name: "VSCode",
     },
     {
       icon: faSlack,

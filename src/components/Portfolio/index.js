@@ -182,7 +182,7 @@ const Portfolio = () => {
         <hr />
         <div className="portfolio-techs">
           <b>Frameworks, technologies & libraries used: </b>{" "}
-          <p>GatsbyJS • Strapi • Hubspot • GraphQL • Styled Components</p>
+          <p>GatsbyJS • Hubspot • GraphQL • Styled Components • Strapi CMS</p>
         </div>
         <b>Website:</b>{" "}
         <a

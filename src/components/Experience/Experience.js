@@ -19,13 +19,13 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker" data-aos="fade-down"></div>
           <div className="timeline-content" data-aos="slide-right">
-            <h3>2014 ~ 2019</h3>
-            <h4>National Univercity “Lviv Politechnic”</h4>
+            <h3>2016 ~ 2019</h3>
+            <h4>University of Novi Sad</h4>
             <h5>Computer Science graduate with Bachelor of Science degree. </h5>
             <hr />
-            <h5>Additional Altkom Akademia IT courses: </h5>
-            <p>· Programming in JavaScript</p>
-            <p>· Web Applications Development with React framework.</p>
+            <h5>Additional IT courses: </h5>
+            <p>• Programming in JavaScript</p>
+            <p>• Web Applications Development with React framework.</p>
             <hr />
           </div>
         </div>
@@ -33,16 +33,13 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker" data-aos="zoom-in"></div>
           <div className="timeline-content" data-aos="slide-left">
-            <h3>April 2019 ~ June 2019</h3>
-            <h4>Computer Science studies graduated.</h4>
-            <h5>BSc thesis' final project - KrewSystem Application</h5>
+            <h3>Sep 2018 ~ Mar 2020</h3>
+            <h4>React Frontend Developer | Atidot Ltd</h4>
             <p>
-              KrewSystem is a further development of Blood Donation Center
-              System via implementation of web portal for servicing blood
-              donors. Application is an extension of already existing BDC's
-              system and is dedicated for local departments of Lubuskie region
-              located in 5 other cities.
+              • Developed Atidot Weekly Report Web APP during the internship.
+              (React + Styled Components + Rechart.js)
             </p>
+            <p>• Convert Webflow to React.</p>
             <p>
               The application's functionality is based on the React framework.
               Other technologies, frameworks and libraries used: HTML5, CSS3,
@@ -55,13 +52,16 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker" data-aos="zoom-in"></div>
           <div className="timeline-content" data-aos="slide-right">
-            <h3>July 2019 ~ March 2021</h3>
-            <h4>Intern Software Developer | Sigma software</h4>
+            <h3>Aug 2020 ~ Feb 2021</h3>
+            <h4>Sr. NextJS Engineer | Bravio Technologies Ltd</h4>
             <p>
-              • Developing & implementing applications' functionalities based on
-              the React framework and Laravel MVC framework along with
-              technologies such as HTML 5, CSS 3, SCSS, Bootstrap, JavaScript,
-              and PHP.
+              • Improved the site speed and performance by converting WordPress
+              to NextJS.
+            </p>
+            <p>
+              The application's functionality is based on the NextJS framework.
+              Other technologies, frameworks and libraries used: Reudx, SCSS,
+              JavaScript, WordPress, etc.
             </p>
             <hr />
           </div>
@@ -70,20 +70,49 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker" data-aos="zoom-in"></div>
           <div className="timeline-content" data-aos="slide-left">
-            <h3>2021</h3>
-            <h4>April 2021 ~ July 2021</h4>
-            <h5>Frontend Developer | Atidot LTD</h5>
+            <h3>Apr 2021 ~ Sep 2021</h3>
+            <h4>JAMStack Developer | Altrady BV</h4>
             <p>
-              • Worked as a frontend developer: Converted old websites to React
-              and Next.
+              • Built the Marketing Website by using Gatsby + Prismic Headless
+              CMS
+            </p>
+            <p>
+              The application's functionality is based on the GatsbyJS
+              framework. Other technologies, frameworks and libraries used:
+              Bootstrap, SCSS, Prismic CMS, etc.
             </p>
             <hr />
-            <h4>August 2021 ~ Currently</h4>
-            <h5>Web Developer | Upwork</h5>
-            <p>• Working as a freelancer at upwork.com</p>
+          </div>
+        </div>
+        {/* - */}
+        <div className="timeline-block timeline-block-left">
+          <div className="marker" data-aos="zoom-in"></div>
+          <div className="timeline-content" data-aos="slide-right">
+            <h3>Nov 2021 ~ Jan 2022</h3>
+            <h4>Gatsby Specialist | NDB Inc</h4>
+            <p>• Built the site by using GatsbyJS and integrated GraphQL API</p>
             <p>
-              • Working independently and remotely and flexible working hours at
-              home
+              The application's functionality is based on the React framework.
+              Other technologies, frameworks and libraries used: Redux, GraphQL,
+              Bootstrap, SCSS, etc.
+            </p>
+            <hr />
+          </div>
+        </div>
+        {/* - */}
+        <div className="timeline-block timeline-block-right">
+          <div className="marker" data-aos="zoom-in"></div>
+          <div className="timeline-content" data-aos="slide-left">
+            <h3>Feb 2022 ~ May 2021</h3>
+            <h4>JAMStack Developer | EasyLlama Inc</h4>
+            <p>
+              • Rebuilt the existing marketing website by using Gatsby and
+              Strapi Headless CMS
+            </p>
+            <p>
+              The application's functionality is based on the React framework.
+              Other technologies, frameworks and libraries used: Styled
+              Components, GraphQL, HubSpot, Strapi CMS, etc.
             </p>
             <hr />
           </div>
