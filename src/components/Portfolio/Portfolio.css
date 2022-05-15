@@ -1,54 +1,54 @@
 /************************ PORTFOLIO *********************************/
 .portfolio-wrapper {
-    /* background: var(--primary-light-grey); */
-    padding: 3rem 0;
-    background: var(--primary-white);
-  }
-  
-  .portfolio-wrapper h1 {
-    color: var(--primary-standard-blue);
-    font-weight: 900;
-  }
+  /* background: var(--primary-light-grey); */
+  padding: 3rem 0;
+  background: var(--primary-white);
+}
 
-  .portfolio-wrapper h5 {
-    color: var(--primary-standard-blue);
-    font-weight: 700;
-    text-align: center;
-    padding-top: 1rem;
-  }
+.portfolio-wrapper h1 {
+  color: var(--primary-standard-blue);
+  font-weight: 900;
+}
 
-  .portfolio-techs p{
-    color: var(--primary-standard-blue);
-    font-weight: 700;
-    text-align: left;
-    padding-top: 1rem;
-  }
-  
-  .portfolio-image {
-    width: 33vh;
-    height: 20vh;
-    border-radius: 10px;
-    padding: 0 0.5rem;
-  }
-  
-  .portfolio-image-box {
-    position: relative;
-    margin: 1rem;
-    box-shadow: 0 4px 20px #1fb8ff;
-    border: 0px solid var(--primary-standard-blue);
-    border-radius: 10px;
-  }
+.portfolio-wrapper h5 {
+  color: var(--primary-standard-blue);
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1rem;
+}
 
-  /*------------ OVERFLOW BOX ------------------*/
+.portfolio-techs p {
+  color: var(--primary-standard-blue);
+  font-weight: 700;
+  text-align: left;
+  padding-top: 1rem;
+}
+
+.portfolio-image {
+  width: 33vh;
+  height: 20vh;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+  box-shadow: 0 4px 20px #1fb8ff;
+  border: 0px solid var(--primary-standard-blue);
+  border-radius: 10px;
+}
+
+/*------------ OVERFLOW BOX ------------------*/
 .overflow {
   position: absolute;
-   opacity: 0;
-   background: var(--primary-black);
-   /* width: 15rem; */
-   width: 100%;
-   /* height: 9rem; */
-   height: 100%;
-   top: 0;
+  opacity: 0;
+  background: var(--primary-black);
+  /* width: 15rem; */
+  width: 100%;
+  /* height: 9rem; */
+  height: 100%;
+  top: 0;
   border: 2px solid var(--primary-standard-blue);
   border-radius: 10px;
 
@@ -59,13 +59,12 @@
   /* opacity: 60% !important;
   transition: 0.3s ease-in-out !important; */
 
-  transition:  .3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
   transform: scale(1.05) !important;
   /* opacity: 75% !important; */
   font-size: 3rem;
   /* filter: opacity(70%); */
   background-color: var(--primary-transparent-black);
-
 }
 
 /* .portfolio-wrapper:hover h5 {
@@ -77,7 +76,7 @@
   transition: 0.3s ease-in-out !important; */
   /* opacity: 75% !important; */
   filter: opacity(70%);
-  transition:  .3s ease-in-out !important;
+  transition: 0.3s ease-in-out !important;
   transform: scale(1.05) !important;
 }
 
@@ -96,11 +95,11 @@
   cursor: pointer;
 }
 
-.popupbox-wrapper{
+.popupbox-wrapper {
   margin-top: 5rem;
 }
 
-.popupbox-content{
+.popupbox-content {
   width: 90vh !important;
 }
 
@@ -129,7 +128,7 @@
 } */
 
 .hyper-link {
-  cursor: pointer; 
+  cursor: pointer;
   color: var(--primary-standard-blue);
 }
 
@@ -137,20 +136,18 @@
   color: var(--primary-red);
 }
 
-@media(max-width: 850px){
-
+@media (max-width: 850px) {
   .portfolio-wrapper h1 {
     font-size: 1.5rem;
     padding: 1rem !important;
     margin: 0;
   }
 
-  .popupbox-content{
+  .popupbox-content {
     width: 40vw;
     height: 75vh;
-    
   }
-  .portfolio-image-popupbox{
+  .portfolio-image-popupbox {
     /* height: 40vh; */
     width: 75vw;
     /* align-items: center; */
@@ -160,13 +157,13 @@
     font-size: 0.6rem;
   }
 
-  .popupbox-content b{
+  .popupbox-content b {
     /* width: 70%; */
     width: 75vw;
     font-size: 0.6rem;
   }
 
-  .popupbox-content p{
+  .popupbox-content p {
     /* width: 70%; */
     width: 75vw;
     font-size: 0.75rem;
@@ -177,21 +174,20 @@
   } */
 }
 
-@media(max-width: 590px){
-
-  .popupbox-wrapper{
+@media (max-width: 590px) {
+  .popupbox-wrapper {
     height: 80%;
   }
 
-  .popupbox-content{
+  .popupbox-content {
     height: 80%;
   }
-  
-  .portfolio-image-popupbox{
+
+  .portfolio-image-popupbox {
     width: 70vw;
   }
 
-  .popupbox-content p{
+  .popupbox-content p {
     width: 70vw;
     font-size: 0.7rem;
   }
@@ -201,12 +197,12 @@
   } */
 }
 
-  /* .vimeo-video {
+/* .vimeo-video {
     width: 100vw;
     height: 100vh;
   } */
 
-  /* @media(max-width: 480px){
+/* @media(max-width: 480px){
     .popupbox-content{
       width: 50%;
       height: 25vh;
@@ -223,5 +219,3 @@
     
     }
   } */
-
-

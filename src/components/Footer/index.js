@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="d-flex">
               <a
                 className="footer-icon"
-                href="https://github.com/maiba23"
+                href="https://github.com/topdev23"
                 target="_blank"
                 rel="noreferrer"
               >

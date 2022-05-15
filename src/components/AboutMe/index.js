@@ -30,22 +30,22 @@ const AboutMe = () => {
               <span className="bold-text">Hey there, good day!</span>
               <br />
               <br />
-              My name is Yurii Maiba from Ukraine.
+              My name is Stefan Berat from Serbia.
               <br />
               I’ve graduated in{" "}
               <span className="bold-text">
-                Computer Science from the National University “Lviv Politechnic”
-                with Bachelor’s degree.{" "}
+                Computer Science from University of Novi Sad with Bachelor’s
+                degree.{" "}
               </span>
               <br />
               <br />
-              Previously, I've worked at Atidot and Sigma as a web developer,
-              and here I've delivered kick-ass campaigns and cutting-edge web
+              Previously, I've worked at many companies as a web developer, and
+              here I've delivered kick-ass campaigns and cutting-edge web
               experiences.
               <br />
-              <br />I have 5 years of experience as a developer and love working
-              with <span className="bold-text">React</span> and other hip
-              frameworks.
+              <br />I have over 5 years of experience as a developer and love
+              working with <span className="bold-text">React</span> and other
+              hip frameworks.
               <br />
               <br />
               At the moment I am working remotely as a freelancer at home.

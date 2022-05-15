@@ -26,28 +26,25 @@ const Header = () => {
           data-aos="fade-down"
         />
         <h1 data-aos="fade-down">
-          Hey, I'm Yurii Maiba Senior Frontend Developer.
+          Hey, I'm Stefan Berat! I am well versed in:{" "}
         </h1>
-        <h1 data-aos="fade-down">Let's work together!</h1>
         {/* Using React-Typed package to display 'writing text animation'. */}
         <Typed
           className="typed-text"
           strings={[
-            "HTML 5",
-            "CSS/SCSS",
-            "Bootstrap",
-            "JavaScript",
             "ReactJS",
             "GatsbyJS",
             "NextJS",
+            "NodeJS",
             "Laravel/PHP",
-            "GitHub/GitLab",
+            "Git",
           ]}
           typeSpeed={40}
           backSpeed={60}
           loop
           data-aos="fade-down"
         />
+        <h1 data-aos="fade-down">Let's work together!</h1>
         <Link
           smooth={true}
           to="contacts"
